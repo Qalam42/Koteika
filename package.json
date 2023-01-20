@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "@weboops/core": "^0.2.8"
+  },
+  "scripts": {
+    "build": "weboops --mode build",
+    "dev": "weboops --mode development"
   }
 }
