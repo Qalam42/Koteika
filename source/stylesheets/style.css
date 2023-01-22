@@ -1,1 +1,8 @@
 @import "../components/header/header.css";
+@import "../components/banner-1/banner-1.css";
+
+h1,
+h2 {
+    font-family: 'Rubik', sans-serif;
+}
+

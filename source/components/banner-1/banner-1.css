@@ -1,0 +1,42 @@
+
+.banner-1__mask-1 {
+    z-index: 1;
+    position: absolute;
+    width: 1366px;
+    height: 504px;
+    opacity: 1;
+}
+
+.banner-1__mask-1:hover {
+    opacity: 0;
+}
+
+.banner-1__mask-2 {
+    z-index: 3;
+    position: absolute;
+    height: 504px;
+} 
+
+.banner-1__mask-1-hover {
+    opacity: 1;
+    width: 1366px;
+    height: 504px;
+}
+
+/* .banner-1__city {
+    display: block;
+}
+
+.banner-1__title {
+    display: block;
+}
+
+.banner-1__text {
+    display: block;
+}
+
+.banner-1__container {
+    display: flex;
+} */
+
+
