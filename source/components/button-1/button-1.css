@@ -1,0 +1,32 @@
+.button-1 {
+    position: absolute;
+    width: 206px;
+    height: 50px;
+    
+    /* Белый */
+
+    background: #FFFEFD;
+    box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+    border-radius: 25px;
+    display: flex; 
+}
+
+.button-1__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+    color: #1A212F;
+    text-decoration: none;
+}
+
+.button-1__img {
+    height: 36px;
+    width: 36px;
+    margin-top: 7px;
+    margin-left: 23px;
+}

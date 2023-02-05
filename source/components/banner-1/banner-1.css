@@ -1,10 +1,26 @@
 
+.banner-1 {
+    display: flex;
+    
+}
+
+.banner-1__mask {
+    position: absolute; 
+}
+
+.banner-1__content {
+    z-index: 4;
+    margin-left: 198px;
+    margin-top: 153px;
+}
+
 .banner-1__mask-1 {
     z-index: 1;
-    position: absolute;
     width: 1366px;
     height: 504px;
     opacity: 1;
+    display: block;
+    position: absolute; 
 }
 
 .banner-1__mask-1:hover {
@@ -13,30 +29,46 @@
 
 .banner-1__mask-2 {
     z-index: 3;
-    position: absolute;
     height: 504px;
+    display: block;
+    position: absolute; 
 } 
 
 .banner-1__mask-1-hover {
     opacity: 1;
     width: 1366px;
     height: 504px;
-}
-
-/* .banner-1__city {
     display: block;
 }
 
-.banner-1__title {
-    display: block;
+.banner-1__content__city {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 14px;
 }
 
-.banner-1__text {
-    display: block;
+.banner-1__content__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 25px;
+    line-height: 62px;
 }
 
-.banner-1__container {
-    display: flex;
-} */
+.banner-1__content__text {
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+
+
 
 

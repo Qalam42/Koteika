@@ -1,5 +1,11 @@
 @import "../components/header/header.css";
 @import "../components/banner-1/banner-1.css";
+@import "../components/button-1/button-1.css";
+
+
+* {
+    color: #1A212F;
+}
 
 h1,
 h2 {
